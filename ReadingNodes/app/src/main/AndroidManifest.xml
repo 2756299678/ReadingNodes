@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.baohui.readingnodes">
+
+    <!-- To auto-complete the email text field in the login form with the 's emails -->
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+    <uses-permission android:name="android.permission.READ_PROFILE" />
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/icon"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".Activity.LoginActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Activity.MainActivity" />
+        <activity
+            android:name=".Activity.RegisterActivity"
+            android:label="注册" />
+        <activity
+            android:name=".Activity.AddbookActivity"
+            android:label="添加书籍" />
+        <activity
+            android:name=".Activity.ChangebookActivity"
+            android:label="修改书籍" />
+        <activity
+            android:name=".Activity.AddcategoryActivity"
+            android:label="添加类别" />
+        <activity
+            android:name=".Activity.ChangecategoryActivity"
+            android:label="修改类别" />
+        <activity
+            android:name=".Activity.AddnodeActivity"
+            android:label="添加笔记" />
+        <activity
+            android:name=".Activity.ChangenodeActivity"
+            android:label="修改笔记" />
+        <activity android:name=".Activity.AboutusActivity"
+            android:label="关于我们"/>
+        <activity android:name=".Activity.CountUserActivity"
+            android:label="用户笔记统计"/>
+        <activity android:name=".Activity.CountBookActivity"
+            android:label="用户笔记管理">
+
+        </activity>
+    </application>
+
+</manifest>

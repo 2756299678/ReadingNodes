@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_marginTop="40dp"
+    android:layout_marginBottom="10dp"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.baohui.readingnodes.Activity.CountUserActivity"
+    >
+
+<View
+    android:layout_width="match_parent"
+    android:layout_height="1dp"
+    android:background="#33000000" />
+<TextView
+    android:paddingRight="10px"
+    android:layout_marginTop="10dp"
+    android:layout_marginBottom="10dp"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="汇总每个用户的笔记数量："
+    android:id="@+id/f1_book_list"
+    />
+<View
+    android:layout_width="match_parent"
+    android:layout_height="1dp"
+    android:background="#33000000" />
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_marginTop="10dp"
+    android:layout_marginBottom="10dp"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    >
+    <TextView
+        android:paddingLeft="10px"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="用户名"
+        android:id="@+id/count_user_textView_username"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/count_user_textView_number"
+        android:layout_weight="1"
+        android:text="笔记数量"
+        android:paddingRight="10px"
+        />
+</LinearLayout>
+<View
+    android:layout_width="match_parent"
+    android:layout_height="1dp"
+    android:background="#33000000" />
+<ListView
+    android:id="@id/android:list"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" >
+</ListView>
+
+</LinearLayout>
