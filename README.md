@@ -21,12 +21,14 @@
 
 [项目结构简介]：
 
-src/main/java/com/example/baohui/carapp_version10/Activity      存放Activity活动类
-src/main/java/com/example/baohui/carapp_version10/Bean          存放实体
-src/main/java/com/example/baohui/carapp_version10/Dao           存放方法类
-src/main/java/com/example/baohui/carapp_version10/Fragement     存放Fragement活动类
-src/main/java/com/example/baohui/carapp_version10/util          工具类
-src/main/java/com/example/baohui/carapp_version10/view        	前端页面
+src/main/java/com/example/baohui/readingnodes/Activity      存放Activity活动类
+src/main/java/com/example/baohui/readingnodes/Bean          存放实体
+src/main/java/com/example/baohui/readingnodes/Dao           存放方法类
+src/main/java/com/example/baohui/readingnodes/Fragement     存放Fragement活动类
+src/main/java/com/example/baohui/readingnodes/database      数据库工具类
+src/main/res/layout       	前端页面
+src/main/res/drawable       前端资源
+src/main/res/values         默认参数设置
 
 [作者列表]：
 Lighter
